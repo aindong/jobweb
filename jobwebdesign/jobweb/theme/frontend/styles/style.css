@@ -1,0 +1,537 @@
+/* reset here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body
+{
+	background: #239ad8;
+	padding: 0px;
+	margin: 0px;
+	font-family: tahoma;
+	font-size: 12px;
+}
+
+/*main wrapper*/
+#main-wrapper
+{
+	width: 1024px;
+	height: auto;
+	margin: 0px auto;
+	background: #fff;
+}
+
+/*header*/
+#header
+{
+	float: left;
+	background: #239ad8;
+	width: 100%;
+	height: 30px;
+	padding: 20px 0px 0px 0px;
+
+}
+
+#header a
+{
+	font-size: 30px;
+	color: #fff;
+	text-decoration: none;
+	font-family: Script MT Bold;
+
+}
+
+/*menu*/
+#menu
+{
+	float: left;
+	background: #239ad8;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	padding: 20px 0px 0px 0px;
+}
+
+#menu li
+{
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu li a
+{
+	color: #fff;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-left: 10px;
+}
+
+#menu li a:hover
+{
+	background: #1982b9;
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px #fff;
+
+}
+
+#menu li a.active
+{
+	background: #1982b9;
+}
+
+#controlbox
+{
+	float: right;
+	width: 300px;
+	height: 100%;
+	display: inline;
+}
+
+#controlbox #btnLink
+{
+	float: right;
+	background: #005886;
+	width: 120px;
+	margin-right: 20px;
+
+	border-radius: 5px;
+	webkit-border-radius: 5px;
+	moz-border-radius: 5px;
+	o-border-radius: 5px;
+	padding: 10px 0px;
+}
+
+#controlbox #btnLink a
+{
+	font-size: 20px;
+	padding: 20px 20px 10px 20px;
+}
+
+#news #postbtn
+{
+	float: left;
+	background: #005886;
+	width: 150px;
+	margin: 375px 0px 0px 850px;
+
+	border-radius: 5px;
+	webkit-border-radius: 5px;
+	moz-border-radius: 5px;
+	o-border-radius: 5px;
+	padding: 10px 0px;
+}
+
+#news #postbtn a
+{
+	font-size: 10px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#news
+{
+
+	width: 1024px;
+	height: 300px;
+	float:left;
+	margin-top: 10px;
+}	
+
+#joblist
+{
+	width: 96%;
+	height: 100%;
+	float:left;
+	padding: 20px;
+	margin-top: 10px;
+	background: #fff;
+
+
+	box-shadow: 0px 30px 30px #000;
+}
+
+#joblist h1
+{
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+hr
+{
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
+
+#loginForm
+{
+	position: relative;
+	background: #00498d;
+	width: 300px;
+	height: 150px;
+	z-index: 9999;
+	top: 50px;
+	padding: 10px;
+	opacity: 0.5px;
+
+	border-radius: 5px 5px 5px 5px;
+	webkit-border-radius: 5px 5px 5px 5px;
+	moz-border-radius: 5px 5px 5px 5px;
+	o-border-radius: 5px 5px 5px 5px;
+
+	box-shadow: 0px 0px 10px #000;
+	webkit-box-shadow: 0px 0px 10px #000;
+	moz-box-shadow: 0px 0px 10px #000;
+	o-box-shadow: 0px 0px 10px #000;
+}
+
+#loginForm form 
+{
+	margin: 0px;
+	padding: 10px;
+}
+
+input[type="text"], input[type="password"]
+{
+	width: 90%;
+	border: 1px solid #363636;
+	font-size: 15px;
+
+}
+
+input[type="submit"]
+{
+	margin-top: 10px;
+	width: 50%;
+	height: 30px;
+	font-size: 17px;
+}
+
+label
+{
+	font-size: 18px;
+	color: white;
+}
+
+#Purpose
+{
+	float: left;
+	height: 220px;
+	width: 40%;
+	border: 3px;
+	margin-top: 30px;
+	padding: 10px 20px;
+	margin-left: 50px;
+	\\background-color: #272727;
+	border: 1px solid;
+}
+
+#Purpose p
+{
+	font-size: 16px;
+	text-align: justify;
+	line-height: 1.5em;
+	color: #000;
+}
+
+#Purpose p span
+{
+	font-size: 20px;
+}
+#Hori
+{
+
+	box-shadow: 0px 0px 10px #272727;
+	width: 5px;
+	height: 5px;
+}
+
+#full-width
+{
+	margin-top: 50px;
+	margin-left: 40px;
+	float: left;
+	height: 100%;
+	width: 95%;
+}
+
+#full-width p 
+{
+	font-size: 16px;
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+#full-width p span
+{
+	font-size: 20px;
+}
+
+#Welcome 
+{
+	opacity: 0.9px;
+	background-color: #239ad8;
+	margin-top: 10px;
+	float: left;
+	height: 80px;
+	width: 100%;
+	box-shadow: 5px 5px 10px #000;
+}
+
+#Welcome  p span
+{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: tahoma;
+	float: left;
+	margin-top: 25px;
+	margin-left: 350px;
+}
+
+#AboutUs
+{
+	opacity: 0.9px;
+	background-color: #239ad8;
+	margin-top: 10px;
+	float: left;
+	height: 80px;
+	width: 100%;
+	box-shadow: 5px 5px 10px #000;
+}
+
+#AboutUs  p span
+{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: tahoma;
+	float: left;
+	margin-top: 25px;
+	margin-left: 400px;
+}
+
+#ptrHead
+{
+	opacity: 0.9px;
+	background-color: #239ad8;
+	margin-top: 10px;
+	float: left;
+	height: 80px;
+	width: 100%;
+	box-shadow: 5px 5px 10px #000;
+}
+
+#ptrHead p span
+{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: tahoma;
+	float: left;
+	margin-top: 25px;
+	margin-left: 400px;
+}
+
+#missionProf
+{
+	opacity: 0.9px;
+	background-color: #239ad8;
+	margin-top: 10px;
+	float: left;
+	height: 80px;
+	width: 100%;
+	box-shadow: 5px 5px 10px #000;
+}
+
+#missionProf p span
+{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: tahoma;
+	float: left;
+	margin-top: 25px;
+	margin-left: 400px;
+}
+
+#Greetings
+{
+	margin-top: 10px;
+	margin-left: 40px;
+	float: left;
+	height: 100%;
+	width: 95%;
+
+}
+
+
+#Greetings p span
+{
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+
+
+#Greetings p
+{
+	font-size: 16px;
+	text-align: justify;
+	line-height: 1.5em;
+	box-shadow: 0px 0px 10px #fff;
+}
+
+
+#PtrProfile
+{
+
+	border:1px;
+	width: 250px;
+	height:200px;
+	float: left;
+	background: #239AD8;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 21px 21px 21px 21px;
+	-moz-border-radius: 21px 21px 21px 21px;
+	-webkit-border-radius: 21px 21px 21px 21px;
+	border: 2px groove #0000;
+}
+
+#ptrContent
+{
+	border:1px;
+	width: 600px;
+	height:400px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+	background: #239AD8;
+
+	border-radius: 21px 21px 21px 21px;
+	-moz-border-radius: 21px 21px 21px 21px;
+	-webkit-border-radius: 21px 21px 21px 21px;
+	border: 2px groove #0000;
+
+}
+
+#MissionPic
+{
+	text-align: center;
+	text-size:20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border:1px;
+	width: 50%;
+	height:auto;
+	float: left;
+	background: #239AD8;
+	margin-top: 20px;
+	margin-left: 10px;
+	border-radius: 21px 21px 21px 21px;
+	-moz-border-radius: 21px 21px 21px 21px;
+	-webkit-border-radius: 21px 21px 21px 21px;
+	border: 2px groove #0000;
+}
+
+#MissionContent
+{
+	border:1px;
+	width: 300px;
+	height:400px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
+	background: #239AD8;
+
+	border-radius: 21px 21px 21px 21px;
+	-moz-border-radius: 21px 21px 21px 21px;
+	-webkit-border-radius: 21px 21px 21px 21px;
+	border: 2px groove #0000;
+
+}
+
+#MissionPic p
+{
+	font-size: 16px;
+}
+
+#MissionPic p span
+{
+	font-size: 18px;
+	
+}
+
+#MoreAbout
+{
+	height: 35px;
+	width: 70px;
+	background-color: #239AD8;
+
+	float: left;
+	margin-left: 850px;
+	font-size: 20px;
+	
+	border-radius: 21px 21px 21px 21px;
+	-moz-border-radius: 21px 21px 21px 21px;
+	-webkit-border-radius: 21px 21px 21px 21px;
+	box-shadow: 5px 5px 10px #000;
+
+}
+#MoreAbout a
+{
+	font-color: #fff;
+	padding:0px 0px 0px 10px;
+	font-weight: bold;
+	text-decoration: none;
+}

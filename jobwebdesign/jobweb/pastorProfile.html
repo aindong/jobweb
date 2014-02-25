@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+
+	<div id="main-wrapper">
+		<div id="header">
+			<a href="#">House of Praise Church Incorporated</a>
+			<div id="controlbox">
+
+
+				<div id="btnLink" class="login">
+					<a href="#">Login</a>
+				</div>
+
+					<div id="loginForm">
+				
+						<form>
+							<label for="username">Username: </label>  
+							<input type="text" name="username" id="username">
+							<label for="pass">Password: </label>
+							<input type="password" name="pass" id="pass">
+							<input type="submit" value="Login">
+						</form>
+					</div>
+
+			</div>
+
+			
+		 
+
+		</div>
+
+		<ul id="menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About us</a></li>
+			<li><a href="#">Pastors Profile</a></li>
+			<li ><a href="#">Missionary Profile</a><li>
+			<li ><a href="#">Gallery</a><li>
+			<li ><a href="#">Transaction</a><li>
+		</ul>
+
+		<div id ="news">
+			<img src="styles/1.jpg" alt="Klematis" width="1024" height="400">
+
+			
+		</div>
+
+
+		<div id="joblist">
+			
+		</div>
+		<hr/> 
+
+	</div>
+	<!-- jquery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		var loginShow = false;
+
+		$(function(){
+			$("#loginForm").hide();
+
+
+			$(".login").click(function() {
+				console.log(loginShow);
+
+				if(loginShow == false)
+				{
+					$("#loginForm").slideDown(500);
+					loginShow = true;	
+				}
+				else
+				{
+					$("#loginForm").slideUp(500);
+					loginShow = false;	
+				}
+				
+			});
+		});
+	</script>
+</body>
+</html>
