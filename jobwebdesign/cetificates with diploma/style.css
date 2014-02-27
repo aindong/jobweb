@@ -1,0 +1,282 @@
+#Main
+{
+	height: 100%;
+	width: 100%;
+	
+}
+
+#baptismalLogo
+{
+	margin-top: 30px;
+	float: left;
+	height: 90px;
+	width: 75px;
+	margin-left: 105px;
+}
+
+#logo2
+{
+
+	margin-top: 30px;
+	float: left;
+	width:416px; 
+	height:79px;
+}
+
+#header
+{	
+	height: 101px;
+	width:562px;
+	margin-left: 65px;
+	
+}
+
+#body2
+{
+	
+	margin-top: 100px;
+	float: left;
+	height: 612px;
+	width: 546px;
+	margin-left: 47px;
+	z-index: -1;
+	position: absolute;
+
+}
+
+#body
+{
+	margin-top: 100px;
+	float: left;
+	height: 612px;
+	width: 546px;
+	margin-left: 47px;
+	z-index: -1;
+	position: absolute;
+
+}
+
+#content p
+{
+	
+	height: 550px;
+	width: 650px;
+	float: left;
+	text-align: center;
+}
+
+#content1 p 
+{
+	padding-top: 40px;
+	height: 550px;
+	width: 650px;
+	font-size: 24;	
+	text-align: center;
+	font-family: Monotype Corsiva;
+	margin-left: 20px;
+}
+#content2
+{
+	font-family: calibri;
+
+	margin-left: 100px;
+	font-weight: bold;
+}
+
+#s1
+{
+	font-size: 35px !important;
+	font-weight: bold;
+	font-family: calibri;
+	text-align: center;
+}
+
+#s2
+{
+	font-size: 20px !important;
+}
+#s3
+{
+	font-family: Copperplate Gothic Light;
+	font-size: 20px !important;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+#pre1
+{
+	font-size: 18px;
+	font-family: calibri;
+	font-weight:  bold;
+
+}
+
+#lastna
+{
+	font-size: 18px;
+	font-family: calibri;
+	font-weight:  bold;
+}
+
+#pic1
+{
+	margin-left: 48%;
+
+	width: 96;
+	height: 97px;
+	
+}
+
+#piccontent
+{
+	margin-left: 580px;
+	width: 250px;
+	height: 50px;
+}
+
+
+#piccontent1
+{
+	margin-left: 400px !important;
+	width: 600px;
+	height: 50px;
+	text-align: center;
+}
+
+
+
+#pic2
+{
+	margin-left: 448px;
+	height: 97px;
+	width: 500px;
+	\\border: 1px solid;
+}
+
+
+#pic3
+{
+	float: right;
+}
+
+#picdiv
+{
+	height: 100px;
+	width:100px;
+}
+
+#picdiv2
+{
+	height: 100px;
+	width:100px;
+	margin-top: 200px;
+}
+
+#picDivContent
+{
+	height: 20px;
+	width: 800px;
+	\\border: 1px solid;
+	margin-left: 25%;
+}
+
+
+
+#piccontent2
+{
+	float: left;
+	height: 60px;
+	width: 150px;
+	\\border: 1px solid;
+	margin-left: 85px;
+	text-align: center;
+}
+
+#piccontent3
+{
+	float: left;
+	\\border: 1px solid;
+	height: 60px;
+	margin-left: 250px;
+	text-align: center;
+}
+
+#pic4
+{
+	float: left;
+	margin-left: 50px;
+	height: 97px;
+	width: 500px;
+	\\border: 1px solid;	
+}
+
+#pic5
+{
+	float: left;
+	margin-left: 100px;
+	\\border: 1px solid;	
+	padding-right: 10px;
+}
+
+#main
+{
+	height: auto;
+	width: auto;
+	background-color: blue;
+}
+
+#f1
+{
+	margin-left: 120px;
+}
+
+#f3
+{
+	margin-left: 250px;
+}
+
+#f4
+{
+	margin-left: 150px;
+	margin-top: 60px;
+}
+
+#f5
+{
+	margin-left: 170px;
+	position: absolute;
+	z-index: -1;
+}
+#f6
+{
+	width: 700px;
+	height: 161px;
+	margin-left: 30px;
+}
+
+#f6con
+{
+	font-family: Blackadder ITC;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#f7
+{
+	margin-top: 150px;
+	margin-left: 160px;
+}
+
+#f8
+{
+	
+	margin-left: 25px;
+}
+
+#f9
+{
+	margin-top: 25px;
+	margin-left: 250px;
+}
